@@ -5,6 +5,7 @@ Weather card content: Temperature in Celsius, Weather mood Forecast date and tim
                        Sunset time, Humidity, Atmospheric pressure, Wind speed
 Default city: Varanasi
 Weather API: https://api.openweathermap.org/
+             (The Secret API Key has been removed for security purpose, replace the redundant value with the actual Key) 
 
 ***********************************************************
 Technology used: HTML, CSS, Javascript, React.js, JSON, API
