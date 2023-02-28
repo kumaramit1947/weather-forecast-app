@@ -1,18 +1,27 @@
-Project Title: Weather Forecast
-Purpose: Displays a weather card for the searched city.
-Search By: city name
-Weather card content: Temperature in Celsius, Weather mood Forecast date and time, Location,
+# Weather Forecast Template
+
+**Purpose** : Displays a weather card for the searched city.
+
+**Search By** : city name
+
+**Weather card content** : Temperature in Celsius, Weather mood Forecast date and time, Location,
                        Sunset time, Humidity, Atmospheric pressure, Wind speed
-Default city: Varanasi
-Weather API: https://api.openweathermap.org/
-             (The Secret API Key has been removed for security purpose, replace the redundant value with the actual Key) 
+                       
+*Default city* : Varanasi
+
+*Weather API*: https://api.openweathermap.org/
+
+             *(The Secret API Key has been removed for security purpose, replace the redundant value with the actual Key)* 
 
 ***********************************************************
-Technology used: HTML, CSS, Javascript, React.js, JSON, API
-Data: fetched from API
+**Technology used:** HTML, CSS, Javascript, React.js, JSON, API
+
+*Data*: fetched from API
 
 ***********************************************************
-React components: 1. Home.js:
+React components:
+
+                  1. Home.js:
                      -> Contains title, search box and Container.js
                      Parent: App.js
                      Children: Container.js
@@ -22,11 +31,16 @@ React components: 1. Home.js:
                      Parent: Home.js
                      Children: None
                      Props used: Weather info object fetched from API , passed by Home.js
+                     
 React Hooks: useState, useEffect
+
 Method used to fetch data from API: fetch()
+
 Icon used: Font-awesome v5
 *******************************************************************
-Future updates: 1. Set current location as default city
+**Future updates:** 
+
+                1. Set current location as default city
                 2. Use some good and relevant Weather icons
                 3. Change the page styling according to the weather mood:
                    Ex: Page should look little blur and smoked , if weather mood is Smog;
@@ -36,6 +50,7 @@ Future updates: 1. Set current location as default city
 ********************************************************************
                      
 
+![WeatherForecast](https://user-images.githubusercontent.com/39863626/221984137-66ddbaf1-656a-47c9-b5cf-f8898a8fe7ea.png)
 
 
 
